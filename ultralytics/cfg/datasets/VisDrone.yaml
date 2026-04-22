@@ -1,0 +1,18 @@
+path: /home/zzx/datasets/visdrone2019 # dataset root dir
+train: /home/datasets/visdrone2019/VisDrone2019-DET-train/images # train images (relative to 'path')  6471 images
+val: /home/datasets/visdrone2019/VisDrone2019-DET-val/images # val images (relative to 'path')  548 images
+test: /home/datasets/visdrone2019/VisDrone2019-DET-test-dev/images # test images (optional)  1610 images
+
+# Classes
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
+

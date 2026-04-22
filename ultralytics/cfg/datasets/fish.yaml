@@ -1,0 +1,48 @@
+path: /home/zzx
+train: # train images (relative to 'path')  16551 images
+  - /home/zzx/datasets/FOURCARPS_1w6/images/train
+val: # val images (relative to 'path')  4952 images
+  - /home/zzx/datasets/FOURCARPS_1w6/images/val
+test: # test images (optional)
+  - /home/zzx/datasets/FOURCARPS_1w6/images/val
+
+# Classes
+names:
+  0: Grass carp
+  1: Black carp
+  2: Silver carp
+  3: Bighead carp
+  4: Common carp
+  5: Goldfish
+  6: Tilapia
+  7: Parabramis pekinensis
+  8: Silver xenocypris
+  9: Hemiculter
+  10: Channa argus
+  11: Amur catfish
+  12: UNKNOWN FISH
+  13: Squaliobarbus curriculus
+  14: Mud carp
+  15: Culter
+  16: Banded catfish
+  17: Amur False Gudgeon
+  18: Rhodeinae
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
