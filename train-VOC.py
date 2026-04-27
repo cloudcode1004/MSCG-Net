@@ -7,5 +7,5 @@ if __name__ == '__main__':
     model.train(data='/ultralytics/cfg/datasets/Visdrone.yaml',
                 imgsz=(1024, 640),
                 rect=True,
-                batch=16, device=0, epochs=400,
+                batch=16, device=0, epochs=300,
                 )
